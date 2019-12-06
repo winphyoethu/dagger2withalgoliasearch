@@ -1,0 +1,34 @@
+<resources>
+	
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	
+	<style name="Icon">
+		<item name="android:padding">4dp</item>
+		<item name="android:tint">@color/grey_dark</item>
+	</style>
+	
+	<style name="MyAppBarLayoutTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+		<item name="colorControlHighlight">@color/touch_overlay_ripple</item>
+	</style>
+	
+	<style name="MyToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+		<item name="colorControlHighlight">@color/touch_overlay_ripple</item>
+	</style>
+	
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+		<item name="android:actionOverflowButtonStyle">@style/MyActionButtonOverflow</item>
+	</style>
+	
+	<style name="MyActionButtonOverflow" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+		<item name="colorControlHighlight">@color/touch_overlay_ripple</item>
+	</style>
+	
+</resources>
